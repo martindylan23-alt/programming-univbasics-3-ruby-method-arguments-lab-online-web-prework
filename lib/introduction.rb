@@ -3,9 +3,13 @@
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
 # in order to complete the rest of this course and be ready for the next course!
 
+name = "Hi, my name is #{name}."
+introduction(name)
 
+language = "and I am learning to program in ruby"
+introduction_with_language(name,language)
 
-
+introduction_with_language_optional =(name, language = Float)
 
 
 
